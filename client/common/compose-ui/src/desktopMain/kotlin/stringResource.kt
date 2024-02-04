@@ -42,5 +42,19 @@ private var lastId = currentNanoTime().toInt()
 private var _title = lastId++
 actual val MppR.string.title: Int get() = _title
 
-private val _mypage_button = lastId++
-actual val MppR.string.mypage_button: Int get() = _mypage_button
+private val _mypage_button_dropdown1 = lastId++
+private val _mypage_button_dropdown2 = lastId++
+private val _mypage_button_dropdown3 = lastId++
+private val _mypage_button_dropdown4 = lastId++
+private val _mypage_button_dropdown5 = lastId++
+actual val MppR.string.mypage_button_dropdown1: Int get() = _mypage_button_dropdown1
+actual val MppR.string.mypage_button_dropdown2: Int get() = _mypage_button_dropdown2
+actual val MppR.string.mypage_button_dropdown3: Int get() = _mypage_button_dropdown3
+actual val MppR.string.mypage_button_dropdown4: Int get() = _mypage_button_dropdown4
+actual val MppR.string.mypage_button_dropdown5: Int get() = _mypage_button_dropdown5
+
+private val _view_mode_true: Int = lastId++
+private val _view_mode_false: Int = lastId++
+
+actual val MppR.string.view_mode_true: Int get() = _view_mode_true
+actual val MppR.string.view_mode_false: Int get() = _view_mode_false

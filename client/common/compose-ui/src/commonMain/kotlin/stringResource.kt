@@ -17,4 +17,11 @@ expect fun stringResource(id: Int, count: Int): String
 
 expect val MppR.string.title: Int
 
-expect val MppR.string.mypage_button: Int
+expect val MppR.string.mypage_button_dropdown1: Int
+expect val MppR.string.mypage_button_dropdown2: Int
+expect val MppR.string.mypage_button_dropdown3: Int
+expect val MppR.string.mypage_button_dropdown4: Int
+expect val MppR.string.mypage_button_dropdown5: Int
+
+expect val MppR.string.view_mode_true: Int
+expect val MppR.string.view_mode_false: Int
