@@ -61,3 +61,6 @@ actual val MppR.string.view_mode_false: Int get() = _view_mode_false
 
 private val _detail_button: Int = lastId++
 actual val MppR.string.detail_button: Int get() = _detail_button
+
+private val _category_tab: Int = lastId++
+actual val MppR.string.category_tab: Int get() = _category_tab

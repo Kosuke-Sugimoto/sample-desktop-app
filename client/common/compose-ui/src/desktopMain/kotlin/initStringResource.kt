@@ -13,6 +13,7 @@ fun buildStringResources(): Map<Int, String> {
     strs[rs.view_mode_true] = "リスト"
     strs[rs.view_mode_false] = "地図"
     strs[rs.detail_button] = "詳細"
+    strs[rs.category_tab] = "カテゴリ"
 
     return strs
 }

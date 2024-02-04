@@ -27,3 +27,5 @@ expect val MppR.string.view_mode_true: Int
 expect val MppR.string.view_mode_false: Int
 
 expect val MppR.string.detail_button: Int
+
+expect val MppR.string.category_tab: Int
