@@ -42,7 +42,7 @@ fun HomeContent(
             modifier = Modifier.weight(10f)
         ) {
             Spacer(Modifier.weight(3f))
-            StoreInfoColumn()
+            if(isListMode) ModeListStoreInfoColumn() else ModeMapStoreInfoColumn()
             Spacer(Modifier.weight(2f))
             CategoryColumn()
             Spacer(Modifier.weight(1f))

@@ -4,8 +4,15 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 
 @Composable
-fun StoreInfoColumn(
+fun ModeListStoreInfoColumn(
 
 ) {
-    Text("For Debug StoreInfoColumn")
+    Text("For Debug StoreInfo Column List")
+}
+
+@Composable
+fun ModeMapStoreInfoColumn(
+
+) {
+    Text("For Debug StoreInfo Column Map")
 }
