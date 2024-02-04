@@ -41,7 +41,11 @@ fun HomeContent(
         Row(
             modifier = Modifier.weight(10f)
         ) {
-
+            Spacer(Modifier.weight(3f))
+            StoreInfoColumn()
+            Spacer(Modifier.weight(2f))
+            CategoryColumn()
+            Spacer(Modifier.weight(1f))
         }
     }
 }
