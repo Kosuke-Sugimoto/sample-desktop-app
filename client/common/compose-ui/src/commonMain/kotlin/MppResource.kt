@@ -27,14 +27,3 @@ object MppResource {
     // みたいに数字(個数)によって文字列表示を変えたい場合とかに便利
     object plurals {}
 }
-
-@Composable
-expect fun rememberMppRolePlayAppState(): MppRolePlayAppState
-
-@Stable
-expect class MppRolePlayAppState {
-    val scaffoldState: ScaffoldState
-    val currentRoute: String?
-
-    fun navigateToRoute(route: String)
-}
