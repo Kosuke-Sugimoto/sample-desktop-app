@@ -25,3 +25,5 @@ expect val MppR.string.mypage_button_dropdown5: Int
 
 expect val MppR.string.view_mode_true: Int
 expect val MppR.string.view_mode_false: Int
+
+expect val MppR.string.detail_button: Int

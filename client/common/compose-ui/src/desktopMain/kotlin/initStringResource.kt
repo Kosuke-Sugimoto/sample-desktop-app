@@ -12,6 +12,7 @@ fun buildStringResources(): Map<Int, String> {
     strs[rs.mypage_button_dropdown5] = "ログアウト"
     strs[rs.view_mode_true] = "リスト"
     strs[rs.view_mode_false] = "地図"
+    strs[rs.detail_button] = "詳細"
 
     return strs
 }

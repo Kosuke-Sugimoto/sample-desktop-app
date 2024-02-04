@@ -58,3 +58,6 @@ private val _view_mode_false: Int = lastId++
 
 actual val MppR.string.view_mode_true: Int get() = _view_mode_true
 actual val MppR.string.view_mode_false: Int get() = _view_mode_false
+
+private val _detail_button: Int = lastId++
+actual val MppR.string.detail_button: Int get() = _detail_button
