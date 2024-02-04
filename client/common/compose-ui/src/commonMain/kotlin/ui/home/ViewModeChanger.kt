@@ -31,7 +31,7 @@ fun ViewModeChanger(
         Box(
             modifier = Modifier
                 .background(color = listModeColor)
-                .clickable(onClick = {onListMode(true)})
+                .clickable(onClick = { onListMode(true) })
         ) {
             Text(
                 stringResource(MppResource.string.view_mode_true)
@@ -41,7 +41,7 @@ fun ViewModeChanger(
         Box(
             modifier = Modifier
                 .background(color = mapModeColor)
-                .clickable(onClick = {onListMode(false)})
+                .clickable(onClick = { onListMode(false) })
         ) {
             Text(
                 stringResource(MppResource.string.view_mode_false)
