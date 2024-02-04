@@ -13,7 +13,15 @@ object StoreRepo {
         template.copy(
             id = 2,
             name = "新見宅",
-            category = CategoryRepo.getCategories(listOf(1)).single()
+            category = CategoryRepo.getCategories(listOf(2)).single()
+        ),
+        template.copy(
+            id = 3,
+            name = "東京理科大学"
+        ),
+        template.copy(
+            id = 4,
+            name = "桂田亭"
         )
     )
 }
